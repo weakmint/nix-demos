@@ -42,6 +42,9 @@
 
           homebrew = {
             enable = true;
+            brews = [
+              "dive"
+            ];
             casks = [
               "iterm2"
               "waterfox"
